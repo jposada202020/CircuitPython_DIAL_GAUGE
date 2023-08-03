@@ -12,7 +12,10 @@ Dial gauge widget for displayio
 
 
 """
-
+try:
+    from displayio import Group
+except ImportError:
+    pass
 from math import sin, cos, ceil, pi
 import displayio
 from ulab import numpy as np
@@ -23,7 +26,7 @@ __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/jposada202020/CircuitPython_DIAL_GAUGE.git"
 
 
-class DIAL_GAUGE(displayio.Group):
+class DIAL_GAUGE(Group):
     """
     Dial Class
     """
