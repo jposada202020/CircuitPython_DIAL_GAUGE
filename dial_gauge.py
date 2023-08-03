@@ -13,11 +13,10 @@ Dial gauge widget for displayio
 
 """
 
+from math import sin, cos, ceil, pi
 import displayio
 from ulab import numpy as np
 from bitmaptools import draw_line
-import ulab.numpy as np
-from math import sin, cos, ceil, pi
 from vectorio import Polygon
 
 __version__ = "0.0.0+auto.0"

@@ -2,9 +2,8 @@
 #
 # SPDX-License-Identifier: MIT
 
-
-import board
 import time
+import board
 from dial_gauge import DIAL_GAUGE
 
 
