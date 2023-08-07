@@ -32,6 +32,8 @@ autodoc_mock_imports = [
     "ulab",
     "vectorio",
     "bitmaptools",
+    "adafruit_display_text",
+    "adafruit_bitmap_font",
 ]
 autoclass_content = "both"
 # Add any paths that contain templates here, relative to this directory.
